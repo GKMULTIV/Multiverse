@@ -752,7 +752,7 @@ select {
 
 /* Process Section */
 .process-section {
-    background-image: url('../../How it works image.png');
+    background-image: url('../assets/How it works image.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
