@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Partner - Multiverse Manufacturing Network</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-top">
+                <a href="index.html"><img src="../Cropped network logo.png" alt="Multiverse Logo" class="logo-small"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="upload.html">Get a Quote</a></li>
+                        <li><a href="partner.html">Become a Partner</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="uk-manufacturing.html">UK Manufacturing</a></li>
+                        <li><a href="global-network.html">Global Network</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main style="background-image: url('../Partnership image.png'); background-size: cover; background-position: center; background-attachment: fixed; padding: 40px 0;">
+        <div class="container" style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin: 20px auto;">
+            <h2>Apply to Join Our Network</h2>
+            <p>We are always looking for reputable fabrication and manufacturing companies to join our global network.
+                Please complete the comprehensive form below and one of our representatives will review your application.</p>
+            <form action="https://formsubmit.co/joinus@multiversemanufacturingnetwork.com" method="post" enctype="multipart/form-data" class="partner-form">
+                <input type="hidden" name="_next" value="https://multiversemanufacturingnetwork.com/thank-you.html">
+                <input type="hidden" name="_subject" value="New Partner Application - Multiverse Manufacturing Network">
+                
+                <fieldset>
+                    <legend>1. Basic Company Information</legend>
+                    <label for="company-name">Company Name: *</label>
+                    <input type="text" id="company-name" name="company-name" required>
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website">
+                    <label for="contact-name">Contact Name: *</label>
+                    <input type="text" id="contact-name" name="contact-name" required>
+                    <label for="contact-email">Email: *</label>
+                    <input type="email" id="contact-email" name="contact-email" required>
+                    <label for="contact-phone">Phone Number: *</label>
+                    <input type="tel" id="contact-phone" name="contact-phone" required>
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="3"></textarea>
+                    <label for="country">Country / Region Served:</label>
+                    <input type="text" id="country" name="country">
+                    <label for="year-established">Year Established:</label>
+                    <input type="number" id="year-established" name="year-established" min="1800" max="2026">
+                    <label for="employees">Number of Employees:</label>
+                    <input type="number" id="employees" name="employees" min="1">
+                    <label for="turnover">Annual Turnover Range (Optional):</label>
+                    <select id="turnover" name="turnover">
+                        <option value="">-- Select Range --</option>
+                        <option value="under-500k">Under £500K</option>
+                        <option value="500k-1m">£500K - £1M</option>
+                        <option value="1m-5m">£1M - £5M</option>
+                        <option value="5m-10m">£5M - £10M</option>
+                        <option value="10m-50m">£10M - £50M</option>
+                        <option value="over-50m">Over £50M</option>
+                    </select>
+                    <label for="ownership">Ownership Type:</label>
+                    <select id="ownership" name="ownership">
+                        <option value="">-- Select Type --</option>
+                        <option value="private">Private</option>
+                        <option value="group">Group / Corporation</option>
+                        <option value="family">Family Business</option>
+                        <option value="public">Public Company</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>2. Manufacturing Capabilities</legend>
+                    <h4 style="color: #003366; margin-top: 15px;">Fabrication:</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="cap-fabrication" value="laser-cutting"> Laser cutting</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="waterjet-cutting"> Waterjet cutting</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="plasma-cutting"> Plasma cutting</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="sheet-metal"> Sheet metal fabrication</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="tube-bending"> Tube bending</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="structural-steel"> Structural steel fabrication</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="metal-folding"> Metal folding</label>
+                        <label><input type="checkbox" name="cap-fabrication" value="punching"> Punching</label>
+                    </div>
+                    <h4 style="color: #003366; margin-top: 20px;">Machining:</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="cap-machining" value="cnc-milling"> CNC milling</label>
+                        <label><input type="checkbox" name="cap-machining" value="cnc-turning"> CNC turning</label>
+                        <label><input type="checkbox" name="cap-machining" value="5-axis"> 5-axis machining</label>
+                        <label><input type="checkbox" name="cap-machining" value="swiss-turning"> Swiss turning</label>
+                        <label><input type="checkbox" name="cap-machining" value="edm"> EDM</label>
+                        <label><input type="checkbox" name="cap-machining" value="grinding"> Grinding</label>
+                    </div>
+                    <h4 style="color: #003366; margin-top: 20px;">Other Manufacturing:</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="cap-other" value="injection-moulding"> Injection moulding</label>
+                        <label><input type="checkbox" name="cap-other" value="die-casting"> Die casting</label>
+                        <label><input type="checkbox" name="cap-other" value="3d-printing"> Additive manufacturing / 3D printing</label>
+                        <label><input type="checkbox" name="cap-other" value="toolmaking"> Toolmaking</label>
+                        <label><input type="checkbox" name="cap-other" value="assembly"> Assembly</label>
+                        <label><input type="checkbox" name="cap-other" value="prototyping"> Prototyping</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>3. Materials</legend>
+                    <h4 style="color: #003366; margin-top: 15px;">Metals:</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="materials-metal" value="mild-steel"> Mild steel</label>
+                        <label><input type="checkbox" name="materials-metal" value="stainless-steel"> Stainless steel</label>
+                        <label><input type="checkbox" name="materials-metal" value="aluminium"> Aluminium</label>
+                        <label><input type="checkbox" name="materials-metal" value="copper"> Copper</label>
+                        <label><input type="checkbox" name="materials-metal" value="brass"> Brass</label>
+                        <label><input type="checkbox" name="materials-metal" value="titanium"> Titanium</label>
+                        <label><input type="checkbox" name="materials-metal" value="inconel"> Inconel</label>
+                        <label><input type="checkbox" name="materials-metal" value="tool-steel"> Tool steel</label>
+                    </div>
+                    <h4 style="color: #003366; margin-top: 20px;">Other Materials:</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="materials-other" value="plastics"> Plastics</label>
+                        <label><input type="checkbox" name="materials-other" value="composites"> Composites</label>
+                        <label><input type="checkbox" name="materials-other" value="rubber"> Rubber</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>4. Machine Capacity</legend>
+                    <label for="max-sheet-size">Maximum Sheet Size for Laser Cutting (e.g., 3000mm x 1500mm):</label>
+                    <input type="text" id="max-sheet-size" name="max-sheet-size">
+                    <label for="max-machining">Maximum Machining Envelope X/Y/Z (e.g., 1000mm x 600mm x 500mm):</label>
+                    <input type="text" id="max-machining" name="max-machining">
+                    <label for="max-turning">Maximum Turning Diameter (e.g., 500mm):</label>
+                    <input type="text" id="max-turning" name="max-turning">
+                    <label for="max-weight">Maximum Part Weight (e.g., 2000kg):</label>
+                    <input type="text" id="max-weight" name="max-weight">
+                    <label for="production-volume">Production Volume Range:</label>
+                    <select id="production-volume" name="production-volume">
+                        <option value="">-- Select Range --</option>
+                        <option value="prototype">Prototype (1-10 units)</option>
+                        <option value="low">Low Volume (10-100 units)</option>
+                        <option value="medium">Medium Volume (100-1,000 units)</option>
+                        <option value="high">High Volume (1,000+ units)</option>
+                        <option value="all">All volumes</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>5. Certifications & Accreditations</legend>
+                    <p style="font-size: 0.9rem; color: #555;">Select all certifications your company holds:</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="certifications" value="iso-9001"> ISO 9001</label>
+                        <label><input type="checkbox" name="certifications" value="iso-14001"> ISO 14001</label>
+                        <label><input type="checkbox" name="certifications" value="iso-45001"> ISO 45001</label>
+                        <label><input type="checkbox" name="certifications" value="iso-3834"> ISO 3834</label>
+                        <label><input type="checkbox" name="certifications" value="en-1090"> EN 1090</label>
+                        <label><input type="checkbox" name="certifications" value="as9100"> AS9100</label>
+                        <label><input type="checkbox" name="certifications" value="iatf-16949"> IATF 16949</label>
+                        <label><input type="checkbox" name="certifications" value="iso-13485"> ISO 13485</label>
+                        <label><input type="checkbox" name="certifications" value="ce-ukca"> CE / UKCA compliance</label>
+                    </div>
+                    <label for="cert-upload" style="margin-top: 15px;">Upload Certifications (PDF, max 10MB):</label>
+                    <input type="file" id="cert-upload" name="cert-upload" accept=".pdf" multiple>
+                </fieldset>
+
+                <fieldset>
+                    <legend>6. Industry Experience</legend>
+                    <p style="font-size: 0.9rem; color: #555;">Select all industries you have experience serving:</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="industries" value="aerospace"> Aerospace</label>
+                        <label><input type="checkbox" name="industries" value="automotive"> Automotive</label>
+                        <label><input type="checkbox" name="industries" value="construction"> Construction</label>
+                        <label><input type="checkbox" name="industries" value="energy"> Energy</label>
+                        <label><input type="checkbox" name="industries" value="defence"> Defence</label>
+                        <label><input type="checkbox" name="industries" value="medical"> Medical</label>
+                        <label><input type="checkbox" name="industries" value="rail"> Rail</label>
+                        <label><input type="checkbox" name="industries" value="food-processing"> Food Processing</label>
+                        <label><input type="checkbox" name="industries" value="marine"> Marine</label>
+                        <label><input type="checkbox" name="industries" value="robotics"> Robotics</label>
+                        <label><input type="checkbox" name="industries" value="general"> General Fabrication</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>7. Finishing & Secondary Processes</legend>
+                    <p style="font-size: 0.9rem; color: #555;">Select finishing services you offer (in-house or outsourced):</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="finishing" value="powder-coating"> Powder coating</label>
+                        <label><input type="checkbox" name="finishing" value="anodising"> Anodising</label>
+                        <label><input type="checkbox" name="finishing" value="galvanising"> Galvanising</label>
+                        <label><input type="checkbox" name="finishing" value="heat-treatment"> Heat treatment</label>
+                        <label><input type="checkbox" name="finishing" value="plating"> Plating</label>
+                        <label><input type="checkbox" name="finishing" value="polishing"> Polishing</label>
+                        <label><input type="checkbox" name="finishing" value="painting"> Painting</label>
+                        <label><input type="checkbox" name="finishing" value="assembly"> Assembly</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>8. Production Type</legend>
+                    <p style="font-size: 0.9rem; color: #555;">What types of production do you specialize in?</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label><input type="checkbox" name="production-type" value="prototype"> Prototype</label>
+                        <label><input type="checkbox" name="production-type" value="low-volume"> Low volume</label>
+                        <label><input type="checkbox" name="production-type" value="batch"> Batch production</label>
+                        <label><input type="checkbox" name="production-type" value="high-volume"> High volume</label>
+                        <label><input type="checkbox" name="production-type" value="contract"> Contract manufacturing</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>9. Lead Times</legend>
+                    <label for="prototype-lead">Prototype Lead Time (e.g., 5-7 days):</label>
+                    <input type="text" id="prototype-lead" name="prototype-lead">
+                    <label for="standard-lead">Standard Production Lead Time (e.g., 2-4 weeks):</label>
+                    <input type="text" id="standard-lead" name="standard-lead">
+                    <label for="rush-capability">Rush Order Capability:</label>
+                    <select id="rush-capability" name="rush-capability">
+                        <option value="">-- Select Option --</option>
+                        <option value="yes">Yes - we offer expedited service</option>
+                        <option value="case-by-case">Case by case basis</option>
+                        <option value="no">Not available</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>10. Upload Supporting Documents</legend>
+                    <label for="machine-list">Machine List (PDF, Excel, etc.):</label>
+                    <input type="file" id="machine-list" name="machine-list" accept=".pdf,.xls,.xlsx,.doc,.docx">
+                    <label for="factory-photos">Factory Photos (JPG, PNG):</label>
+                    <input type="file" id="factory-photos" name="factory-photos" accept="image/*" multiple>
+                    <label for="example-projects">Example Projects / Portfolio (PDF, Images):</label>
+                    <input type="file" id="example-projects" name="example-projects" accept=".pdf,image/*" multiple>
+                </fieldset>
+
+                <button type="submit" class="button">Submit Application</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="upload.html">Get a Quote</a></li>
+                        <li><a href="partner.html">Become a Partner</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="uk-manufacturing.html">UK Manufacturing</a></li>
+                        <li><a href="global-network.html">Global Network</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#guide">Getting Started Guide</a></li>
+                        <li><a href="#security">Security & Privacy</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><strong>Email:</strong> <a href="mailto:info@multiversemanufacturingnetwork.com">info@multiversemanufacturingnetwork.com</a></p>
+                    <p><strong>Address:</strong> Business Suites 1 & 2<br>Hollybrook Cottages<br>Bridle Lane<br>Lower Harthsay<br>DE5 3RQ</p>
+                    <p><strong>Hours:</strong> Monday–Friday 9AM–5PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Trust & Security</h4>
+                    <p>✓ ISO 9001:2015 Certified</p>
+                    <p>✓ All Uploads Secure & Confidential</p>
+                    <p>✓ Vetted Partner Network</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Multiverse Manufacturing Network. All rights reserved.</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;"><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
