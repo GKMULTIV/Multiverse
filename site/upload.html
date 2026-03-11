@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote - Multiverse Manufacturing Network</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-top">
+                <a href="index.html"><img src="../Cropped network logo.png" alt="Multiverse Logo" class="logo-small"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="upload.html">Get a Quote</a></li>
+                        <li><a href="partner.html">Become a Partner</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="uk-manufacturing.html">UK Manufacturing</a></li>
+                        <li><a href="global-network.html">Global Network</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main style="background-image: url('../Factory image.png'); background-size: cover; background-position: center; background-attachment: fixed; padding: 40px 0;">
+        <div class="container" style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin: 20px auto; max-width: 560px;">
+            <h2>Upload Your Design for a Quote</h2>
+            <form action="https://formsubmit.co/quotation@multiversemanufacturingnetwork.com" method="post" enctype="multipart/form-data" class="quote-form">
+                <input type="hidden" name="_next" value="https://multiversemanufacturingnetwork.com/thank-you.html">
+                <input type="hidden" name="_subject" value="New Quote Request - Multiverse Manufacturing Network">
+                <fieldset>
+                    <legend>Project Details</legend>
+                    <label for="file">Design File (DXF, DWG, STEP):</label>
+                    <input type="file" id="file" name="file" accept=".dxf,.dwg,.step,.stp" required>
+
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+
+                    <label for="certifications">Required Certifications (Optional):</label>
+                    <select id="certifications" name="certifications" multiple>
+                        <option value="">-- Select Certifications --</option>
+                        <option value="ISO9001">ISO 9001:2015 - Quality Management</option>
+                        <option value="ISO13485">ISO 13485:2016 - Medical Device Quality</option>
+                        <option value="ISO14001">ISO 14001:2015 - Environmental Management</option>
+                        <option value="IATF16949">IATF 16949:2016 - Automotive Quality</option>
+                        <option value="AS9100C">AS9100C - Aerospace Quality</option>
+                        <option value="ISO45001">ISO 45001:2018 - Health & Safety</option>
+                        <option value="RoHS">RoHS Compliant</option>
+                        <option value="CE">CE Marked</option>
+                    </select>
+
+                    <label for="notes">Additional Notes:</label>
+                    <textarea id="notes" name="notes" rows="4"></textarea>
+
+                    <label for="fulfillment">Delivery or Collection:</label>
+                    <select id="fulfillment" name="fulfillment" required>
+                        <option value="">-- Select an Option --</option>
+                        <option value="delivery">Delivery</option>
+                        <option value="collection">Collection</option>
+                    </select>
+
+                    <div id="delivery-address-group" style="display: none; margin-top: 10px;">
+                        <label for="delivery-address">Delivery Address:</label>
+                        <textarea id="delivery-address" name="deliveryAddress" rows="3" placeholder="Enter full delivery address"></textarea>
+                    </div>
+
+                    <div id="collection-address-group" style="display: none; margin-top: 10px;">
+                        <label for="collection-address">Your Business Address (for supplier proximity):</label>
+                        <textarea id="collection-address" name="collectionAddress" rows="3" placeholder="Enter your company address for local supplier matching"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="company">Company Name:</label>
+                    <input type="text" id="company" name="company" required>
+
+                    <label for="contact">Contact Name:</label>
+                    <input type="text" id="contact" name="contact" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+
+                <button type="submit" class="button">Submit for Quotes</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="upload.html">Get a Quote</a></li>
+                        <li><a href="partner.html">Become a Partner</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="uk-manufacturing.html">UK Manufacturing</a></li>
+                        <li><a href="global-network.html">Global Network</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#guide">Getting Started Guide</a></li>
+                        <li><a href="#security">Security & Privacy</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><strong>Email:</strong> <a href="mailto:info@multiversemanufacturingnetwork.com">info@multiversemanufacturingnetwork.com</a></p>
+                    <p><strong>Address:</strong> Business Suites 1 & 2<br>Hollybrook Cottages<br>Bridle Lane<br>Lower Harthsay<br>DE5 3RQ</p>
+                    <p><strong>Hours:</strong> Monday–Friday 9AM–5PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Trust & Security</h4>
+                    <p>✓ ISO 9001:2015 Certified</p>
+                    <p>✓ All Uploads Secure & Confidential</p>
+                    <p>✓ Vetted Partner Network</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Multiverse Manufacturing Network. All rights reserved.</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;"><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const fulfillmentSelect = document.getElementById('fulfillment');
+        const deliveryGroup = document.getElementById('delivery-address-group');
+        const collectionGroup = document.getElementById('collection-address-group');
+        const deliveryAddress = document.getElementById('delivery-address');
+        const collectionAddress = document.getElementById('collection-address');
+
+        function updateFulfillmentFields() {
+            const selectedValue = fulfillmentSelect.value;
+
+            if (selectedValue === 'delivery') {
+                deliveryGroup.style.display = 'block';
+                collectionGroup.style.display = 'none';
+                deliveryAddress.required = true;
+                collectionAddress.required = false;
+                collectionAddress.value = '';
+            } else if (selectedValue === 'collection') {
+                deliveryGroup.style.display = 'none';
+                collectionGroup.style.display = 'block';
+                deliveryAddress.required = false;
+                collectionAddress.required = true;
+                deliveryAddress.value = '';
+            } else {
+                deliveryGroup.style.display = 'none';
+                collectionGroup.style.display = 'none';
+                deliveryAddress.required = false;
+                collectionAddress.required = false;
+                deliveryAddress.value = '';
+                collectionAddress.value = '';
+            }
+        }
+
+        fulfillmentSelect.addEventListener('change', updateFulfillmentFields);
+    </script>
+</body>
+</html>
