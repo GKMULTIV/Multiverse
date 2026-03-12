@@ -30,13 +30,30 @@ p {
 }
 
 .site-header {
-    background: linear-gradient(to right, #cc0000, #ffffff 50%, #003399);
-    color: #000;
+    background-image: url('../../Milkyway image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
     padding: 4px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     position: sticky;
     top: 0;
     z-index: 100;
+    overflow: hidden;
+}
+
+.site-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 14, 43, 0.55);
+    z-index: 0;
+}
+
+.site-header .container {
+    position: relative;
+    z-index: 1;
 }
 
 .header-top {
@@ -80,7 +97,7 @@ p {
 }
 
 .site-header nav a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
@@ -90,8 +107,8 @@ p {
 }
 
 .site-header nav a:hover {
-    color: #0055aa;
-    border-bottom: 2px solid #0055aa;
+    color: #dbe9ff;
+    border-bottom: 2px solid #dbe9ff;
 }
 
 .hero {
