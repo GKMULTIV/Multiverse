@@ -30,8 +30,8 @@ p {
 }
 
 .site-header {
-    background-image: url('../../Milkyway image.png');
-    background-position: center;
+    background-image: url('/Milkyway%20image.png');
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -47,7 +47,7 @@ p {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(3, 14, 43, 0.55);
+    background: rgba(3, 14, 43, 0.28);
     z-index: 0;
 }
 
